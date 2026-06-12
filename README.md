@@ -3,9 +3,9 @@
 Privacy Policy + Terms of Service hébergés sur GitHub Pages.
 
 URLs finales (après déploiement) :
-- **Privacy Policy** : `https://gnalita.github.io/tuneboxai-legal/privacy.html`
-- **Terms of Service** : `https://gnalita.github.io/tuneboxai-legal/terms.html`
-- Landing : `https://gnalita.github.io/tuneboxai-legal/`
+- **Privacy Policy** : `https://gstati.github.io/tuneboxai-legal/privacy.html`
+- **Terms of Service** : `https://gstati.github.io/tuneboxai-legal/terms.html`
+- Landing : `https://gstati.github.io/tuneboxai-legal/`
 
 Ces URLs iront dans le formulaire de soumission Play Console.
 
@@ -29,7 +29,7 @@ git init
 git add .
 git commit -m "Initial: privacy policy + terms of service"
 git branch -M main
-git remote add origin https://github.com/gnalita/tuneboxai-legal.git
+git remote add origin https://github.com/gstati/tuneboxai-legal.git
 git push -u origin main
 ```
 
@@ -39,14 +39,14 @@ git push -u origin main
 2. Sidebar gauche → **Pages**
 3. **Source** : Deploy from a branch
 4. **Branch** : `main` / `/ (root)` → **Save**
-5. Attends 1-2 min, GitHub te donne l'URL : `https://gnalita.github.io/tuneboxai-legal/`
+5. Attends 1-2 min, GitHub te donne l'URL : `https://gstati.github.io/tuneboxai-legal/`
 
 ## Étape 4 — Vérifier
 
 Ouvre les 3 URLs dans ton navigateur :
-- https://gnalita.github.io/tuneboxai-legal/
-- https://gnalita.github.io/tuneboxai-legal/privacy.html
-- https://gnalita.github.io/tuneboxai-legal/terms.html
+- https://gstati.github.io/tuneboxai-legal/
+- https://gstati.github.io/tuneboxai-legal/privacy.html
+- https://gstati.github.io/tuneboxai-legal/terms.html
 
 Tu dois voir les pages en thème sombre violet/rose avec EN + FR, sommaire cliquable.
 
@@ -71,7 +71,7 @@ git push
 
 Quand tu auras configuré `tuneboxai.com`, tu pourras pointer les pages vers ton domaine :
 - Repo GitHub → Settings → Pages → Custom domain : `legal.tuneboxai.com`
-- Côté DNS : ajouter un CNAME `legal` → `gnalita.github.io`
+- Côté DNS : ajouter un CNAME `legal` → `gstati.github.io`
 
 Les URLs deviennent `https://legal.tuneboxai.com/privacy.html` (plus pro).
 
